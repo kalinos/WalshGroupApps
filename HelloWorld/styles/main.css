@@ -1,4 +1,4 @@
-﻿body
+body
 {
     font: Arial, sans-serif;
 }
@@ -7,7 +7,9 @@
 .footerText,
 #geoLocationContainer,
 #helloWorldInput,
-#helloWorldText
+#helloWorldText,
+#searchButton,
+#mybtn
 {
     text-align: center;
 }

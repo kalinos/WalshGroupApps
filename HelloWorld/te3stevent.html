@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type = "text/javascript">
+function addListeners(){
+if(window.addEventListener){
+document.getElementById('mybtn').addEventListener("click",btn1func,false);
+}
+else if(window.attachEvent){
+
+}
+function btn1func(){
+alert(this.id+" : mouse-click makes script run");
+
+}
+
+}
+window.onload = addListeners;
+</script>
+</head>
+
+<body>
+<button id="mybtn"> My Button</button>
+
+
+
+</body>
+
+
+</html>
